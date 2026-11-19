@@ -1,0 +1,5 @@
+implementation,median_startup_ms
+"C -O2 (compiled, optimized)",2.124
+"C -O0 (compiled, unoptimized)",2.016
+"Python (hybrid, bytecode)",19.857
+"JavaScript (JIT, V8)",26.005

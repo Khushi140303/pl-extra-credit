@@ -1,0 +1,37 @@
+workload,n,implementation,mean_ms,median_ms,stdev_ms,first_trial_ms,steady_mean_ms
+fib,20,"C -O2 (compiled, optimized)",0.0313,0.031,0.0007,0.033,0.0311
+fib,20,"C -O0 (compiled, unoptimized)",0.1016,0.096,0.0105,0.095,0.1023
+fib,20,"Python (hybrid, bytecode)",0.7324,0.7422,0.0271,0.7542,0.73
+fib,20,"JavaScript (JIT, V8)",0.3898,0.059,0.776,0.4905,0.3786
+fib,25,"C -O2 (compiled, optimized)",0.2021,0.202,0.0003,0.202,0.2021
+fib,25,"C -O0 (compiled, unoptimized)",0.3779,0.3795,0.0086,0.373,0.3784
+fib,25,"Python (hybrid, bytecode)",5.305,5.3088,0.0814,5.3548,5.2995
+fib,25,"JavaScript (JIT, V8)",0.5283,0.4914,0.1105,0.8399,0.4936
+fib,30,"C -O2 (compiled, optimized)",2.3022,2.303,0.0295,2.359,2.2959
+fib,30,"C -O0 (compiled, unoptimized)",4.1338,4.1315,0.033,4.114,4.136
+fib,30,"Python (hybrid, bytecode)",57.9973,57.98,0.3714,58.7726,57.9111
+fib,30,"JavaScript (JIT, V8)",5.4294,5.367,0.1464,5.7712,5.3914
+fib,32,"C -O2 (compiled, optimized)",5.9942,5.986,0.0916,6.048,5.9882
+fib,32,"C -O0 (compiled, unoptimized)",10.7617,10.752,0.1127,10.799,10.7576
+fib,32,"Python (hybrid, bytecode)",153.5769,153.3026,0.9175,155.8049,153.3293
+fib,32,"JavaScript (JIT, V8)",14.0513,14.0219,0.139,14.2754,14.0265
+fib,35,"C -O2 (compiled, optimized)",25.2144,25.1385,0.1894,25.05,25.2327
+fib,35,"C -O0 (compiled, unoptimized)",45.7738,45.603,0.591,45.508,45.8033
+fib,35,"Python (hybrid, bytecode)",648.0691,648.0213,2.753,648.7324,647.9954
+fib,35,"JavaScript (JIT, V8)",59.3753,59.3369,0.214,59.8661,59.3208
+string,10000,"C -O2 (compiled, optimized)",0.0274,0.0265,0.002,0.032,0.0269
+string,10000,"C -O0 (compiled, unoptimized)",0.0454,0.045,0.0023,0.05,0.0449
+string,10000,"Python (hybrid, bytecode)",1.5362,1.5309,0.0419,1.4808,1.5424
+string,10000,"JavaScript (JIT, V8)",0.4967,0.3952,0.3297,0.7105,0.473
+string,100000,"C -O2 (compiled, optimized)",0.2987,0.2985,0.0086,0.309,0.2976
+string,100000,"C -O0 (compiled, unoptimized)",0.4871,0.482,0.0125,0.498,0.4859
+string,100000,"Python (hybrid, bytecode)",14.1423,14.1248,0.0746,14.179,14.1382
+string,100000,"JavaScript (JIT, V8)",0.9489,0.7188,0.6866,2.8915,0.733
+string,1000000,"C -O2 (compiled, optimized)",2.9903,2.9865,0.0397,3.033,2.9856
+string,1000000,"C -O0 (compiled, unoptimized)",4.8654,4.8685,0.0807,4.996,4.8509
+string,1000000,"Python (hybrid, bytecode)",155.0449,154.9882,0.4249,154.996,155.0503
+string,1000000,"JavaScript (JIT, V8)",7.0332,6.7218,0.7207,8.9055,6.8252
+string,10000000,"C -O2 (compiled, optimized)",29.7248,29.658,0.2818,30.384,29.6516
+string,10000000,"C -O0 (compiled, unoptimized)",49.1867,47.9185,2.7394,49.205,49.1847
+string,10000000,"Python (hybrid, bytecode)",1429.0523,1428.6653,2.3518,1431.7215,1428.7557
+string,10000000,"JavaScript (JIT, V8)",69.9142,68.5701,3.8607,80.3881,68.7504
